@@ -1,0 +1,32 @@
+
+article {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+
+  background-color: var(--color-danger);
+
+  padding: 1.2rem;
+  border-radius: 1.2rem;
+
+  & .box {
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+
+    & span {
+      color: var(--always-white);
+      font-size: 1.8rem;
+      font-weight: 600;
+    }
+  }
+
+  button {
+    border: none;
+    background-color: var(--color-danger);
+    color: var(--always-white);
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+}

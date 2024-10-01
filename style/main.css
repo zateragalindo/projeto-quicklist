@@ -1,0 +1,33 @@
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+
+  margin-block: 4rem;
+
+  & .wrapper-box {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+
+    padding: 1.65rem 1.2rem;
+    border-radius: .6rem;
+    background-color: var(--bg-secondary);
+
+    & .box-name {
+      display: flex;
+      gap: .85rem;
+
+      & label {
+        font-size: 1.6rem;
+        color: var(--content-secondary);
+        font-weight: 500;
+      }
+    }
+
+    & img path {
+      stroke: var(--content-tertiary);
+    }
+  }
+}
